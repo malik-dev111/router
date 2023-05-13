@@ -1,0 +1,38 @@
+.product-s {
+    .container1 {
+      display: flex;
+      align-items: center;
+      padding: 6em 1em;
+          justify-content: space-between;
+      
+      img{
+        width: 200px;
+      }
+      .product-txt-s{
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          span{
+            color: blueviolet
+            ;
+          }
+          h1{
+              color: blueviolet;
+  
+          }
+          p{
+                  font-size: 23px;
+              color: blueviolet;
+          }
+          button{
+              padding: 2px 4px;
+              font-size: 20px;
+              background-color: blueviolet;
+              border: none;
+              color: #fff;
+              border-radius: 4px;
+          }
+  
+      }
+    }
+  }

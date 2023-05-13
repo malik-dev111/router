@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ul {
+      display: flex;
+      list-style: none;
+      
+      li {
+        margin-left: 1rem;
+     
+        a {
+          color: #333;
+          text-decoration: none;
+          font-size: 1.2rem;
+          font-weight: bold;
+          &:hover {
+            color: #666;
+             border-bottom: 3px solid blueviolet;
+
+          }
+        }
+      }
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-around;
+        button{
+            cursor: pointer;
+        }
+        .Button-L{
+            margin: 5px;
+            width: 100px;
+            height: 30px;
+            color: blueviolet;
+            border: none;
+            background-color: white;
+        }
+        .Button-S{
+
+            margin: 5px;
+            width: 100px;
+            height: 30px;    
+            background-color: blueviolet;
+            color: white;
+            border-radius: 5px;
+            border: none ;
+        }
+    }
+  }
+  

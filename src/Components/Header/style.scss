@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    height: 800px;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 27px;
+    display: grid;
+    place-items: center;
+
+    .card {
+        border-radius: 27px;
+        width: 400px;
+        gap: 20px;
+
+        &:focus {
+            box-shadow: 10px 9px 50px white;
+
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: white;
+        }
+
+        p {
+            font-size: 19px;
+            color: white;
+        }
+    }
+
+    button {
+        width: 400px;
+        border: none;
+        background-color: rebeccapurple;
+        color: white;
+        border-radius: 20px;
+        font-size: 20px;
+        cursor: pointer;
+        height: 40px;
+    }
+}
